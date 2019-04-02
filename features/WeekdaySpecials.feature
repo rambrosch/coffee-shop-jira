@@ -8,7 +8,7 @@ Feature:
     And I try to order a new coffee
     Then I expect a message 'coffees are not sold on Fridays'
 
- Scenario: 
+  Scenario: 
     Happy hour for dark coffee on Thursday
     Given I purchase a 'dark' coffee
     When the date is Thursday
