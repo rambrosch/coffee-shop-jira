@@ -14,5 +14,6 @@ Feature:
     When the date is Thursday
     And time is between 5 and 9
     Then I expect the price of the coffee to be price * .5
+    And I drink a coffee
     
     
