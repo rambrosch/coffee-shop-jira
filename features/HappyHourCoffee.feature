@@ -1,7 +1,7 @@
 Feature:HappyHourCoffee
   This is the description of the HappyHourCoffee Feature
   
-  @coffee
+  @coffee_shop
   Scenario:
     Given I have opened the application
     When I order a coffe
