@@ -5,7 +5,7 @@ Feature:
     No coffee on Fridays
     Given I purchase a coffee
     When the date is Friday
-    And I try to order a new coffee
+    And I try to order a second coffee
     Then I expect a message 'coffees are not sold on Fridays'
 
   Scenario: 
